@@ -2,7 +2,6 @@
   "name": "to-be-defined",
   "version": "0.0.0",
   "license": "MPL-2.0",
-  "bin": "",
   "main": "lib/index.js",
   "scripts": {
     "ci:coverage": "nyc npm run test && nyc report --reporter=text-lcov > coverage.lcov",
@@ -21,24 +20,17 @@
     "README.md",
     "LICENSE"
   ],
-  "peerDependencies": {
-    "webpack": "^4.20.2"
-  },
-  "dependencies": {
-    "chalk": "^2.4.1",
-    "joi": "^14.0.3",
-    "loglevelnext": "^3.0.0"
-  },
   "devDependencies": {
-    "@commitlint/cli": "^7.1.2",
-    "@commitlint/config-conventional": "^7.1.2",
-    "ava": "^1.0.0-beta.8",
-    "eslint": "^5.6.1",
-    "eslint-config-shellscape": "^2.0.2",
-    "lint-staged": "^7.3.0",
-    "nyc": "^13.0.1",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "ava": "^3.15.0",
+    "eslint": "^7.25.0",
+    "eslint-config-shellscape": "^3.0.0",
+    "lint-staged": "^10.5.4",
+    "nyc": "^15.1.0",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.14.3"
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
   },
   "keywords": [],
   "pre-commit": "lint-staged",
